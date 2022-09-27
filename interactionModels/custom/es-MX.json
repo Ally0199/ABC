@@ -1,0 +1,37 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "datos cultura general",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "DatoCulturaGeneralIntent",
+          "slots": [],
+          "samples": [
+            "Menciona un dato de cultura general",
+            "Dime otro dato de cultura general",
+            "Dime algo de cultura general",
+            "Dime un dato de cultura general"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "10"
+}
